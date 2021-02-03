@@ -1,1 +1,1 @@
-# This project was developed during the class Information Visualization.
+# This project was developed during the class of Information Visualization.
