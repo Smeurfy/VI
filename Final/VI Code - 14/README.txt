@@ -1,0 +1,1 @@
+É necessário efetuar 2 vezes reload a página para que apareça tudo.(bug que não conseguimos resolver)

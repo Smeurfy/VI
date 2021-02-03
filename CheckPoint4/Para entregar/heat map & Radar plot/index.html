@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <link rel="stylesheet" href="heatmap.css">
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div class="topleft">Steam: Games and Users</div>
+    <div id="chart"></div>
+    <div id="dataset-picker"></div>
+    <select id="inds" onclick="update()">
+      <option value="Ngames" selected="selected">Number of Games</option>
+      <option value="N_Developers">Number of Developers</option>
+      <option value="N_Publishers">Number of Publishers</option>
+      <option value="price">Average Price</option>
+      <option value="rating">Average Rating</option>
+    </select>
+    <img id="amigos" src="friends.png">
+    <img id="scrt1" src="scrtplot.png">
+    <img id="scrt2" src="scrtplot.png">
+    <img id="scrt3" src="scrtplot.png">
+    <img id="scrt4" src="scrtplot.png">
+    <img id="scrt5" src="scrtplot.png">
+    <img id="scrt6" src="scrtplot.png">
+    <script src="heatmap.js"> </script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="RadarChart.js"></script>
+
+<div id="chart1"></div>
+<img id="AAA" src="AAA.jpg">
+  
+<script src="radarplot.js"> </script>
+  </body>
+</html>

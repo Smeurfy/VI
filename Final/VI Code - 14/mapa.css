@@ -1,0 +1,102 @@
+/*slide bar*/
+.slider-container {
+    background-color: #f2f2f9;
+    width: 500px;
+    position: absolute;
+
+}
+
+#slider-container {
+  position: absolute;
+    left: 15px;
+    top: 28px;
+}
+
+.slider {
+    position: absolute;
+    border: 1px solid #A0A0A0;
+    background: #585858;
+    height: 20px;
+    width: 58px;
+    top: 0px;
+    cursor: move;
+    /*margin:-0.5px;*/
+}
+
+.slider .handle {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    border: 1px solid #AAB;
+    background: #A0A0A0;
+
+    /* Support for bootstrap */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.slider .EE {
+    right: -4px;
+    cursor: e-resize;
+}
+
+.slider .WW {
+    cursor: w-resize;
+    left: -4px;
+}
+
+.slider .EE, .slider .WW {
+    top: 50%;
+    margin-top: -4px;
+}
+
+.play-container .button{
+    fill-opacity: 0.0;
+    stroke: #AAB;
+    stroke-width: 1.6;
+}
+
+.play-container .play, .play-container .stop {
+    fill: #BCE;
+    stroke: #AAB;
+    stroke-width: 1;
+}
+
+svg {
+     border:1px solid gray;
+
+    }
+
+    #countries path {
+      fill: #ffffff;
+      stroke: #000000;
+    }
+
+    #arcs path {
+      fill: none;
+      stroke-opacity: 1;
+    }
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#chart {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+.callbacks {
+  margin-left: 0px;
+}

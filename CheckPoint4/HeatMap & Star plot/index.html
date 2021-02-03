@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="starplot.css">
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div class="topleft">Steam: Games and Users</div>
+    <div id="chart"></div>
+    <div id="dataset-picker">
+    </div>
+    <select id="inds" onclick="update()">
+      <option value="Ngames" selected="selected">Number of Games</option>
+      <option value="N_Developers">Number of Developers</option>
+      <option value="N_Publishers">Number of Publishers</option>
+      <option value="price">Average Price</option>
+      <option value="rating">Average Rating</option>
+    </select>
+    <script src="heatmap.js"> </script>
+   
+    <div id='target'>  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="d3-starPlot.js"></script>
+    <script src="starplot.js"> </script></div>
+  </body>
+</html>

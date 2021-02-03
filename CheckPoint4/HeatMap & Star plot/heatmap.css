@@ -1,0 +1,44 @@
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;   
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+
+#inds {
+	margin-left: 120px;
+}
+
+.topleft {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  font-family: Tahoma;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 26px;					
+    height: 12px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
